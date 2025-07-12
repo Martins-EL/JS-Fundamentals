@@ -1,12 +1,11 @@
-function numberOfTimes(x){
-    let num = parseInt(x)
-    if(isNaN(num)){
-        console.log("Missing number of occurrences")
-
-    }
-    for(let i = 0; i< num; i++){
-        console.log("C is fun")
-    }
-}
 const input=process.argv[2]
-numberOfTimes(input)
+
+let num = parseInt(input)
+if(isNaN(num)){
+    console.log("Missing number of occurrences")
+    
+}
+for(let i = 0; i< num; i++){
+    console.log("C is fun")
+}
+
