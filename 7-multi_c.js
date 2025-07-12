@@ -1,4 +1,12 @@
-#!/usr/bin/node
-const x = parseint(ProcessingInstruction.argv[2]);
-if (isNaN(x)) {console.log('Missing number of occurences');
-} else { for (let i =0; i < x; i++) {console.log('C is fun');} }
+function numberOfTimes(x){
+    let num = parseInt(x)
+    if(isNaN(num)){
+        console.log("Missing number of occurrences")
+
+    }
+    for(let i = 0; i< num; i++){
+        console.log("C is fun")
+    }
+}
+const input=process.argv[2]
+numberOfTimes(input)
