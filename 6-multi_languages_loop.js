@@ -4,13 +4,11 @@ const lines = [
     "JavaScript is amazing"
 ];
 
-let fullOutput = "";
 
 for (let i = 0; i < lines.length; i++) {
-    fullOutput += lines[i] + "\n";
+    console.log(lines[i]);
 }
 
-console.log(fullOutput);
 
 
     
